@@ -17,7 +17,7 @@
 <!--<![endif]-->
 
 <head>
-  <title>Hexo</title>
+  <title>Ajax简介 | Hexo</title>
   <!-- Meta data -->
     <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" >
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
@@ -59,7 +59,7 @@
 </head>
 
 <!--
-<body class="home-template">
+<body class="post-template">
 -->
 <body id="index" class="lightnav animsition">
 
@@ -167,136 +167,117 @@
         <!-- ============================ Header & Logo bar =========================== -->
 
 
-      <!-- ============================ Hero Image =========================== -->
-
-<section id="hero" class="scrollme">
-    <div class="container-fluid element-img" style="background: url(/img/bg_img.jpg) no-repeat center center fixed;background-size: cover">
-        <div class="row">
-            <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 vertical-align cover boost text-center">
-                <div class="center-me animateme" data-when="exit" data-from="0" data-to="0.6" data-opacity="0" data-translatey="100">
-                    <div>
-                        
-                        <h2>YOU'VE MADE A <span>BRAVE</span> DECISION, WELCOME.</h2>
-                        <p></p>
-                        
-                        <h2></h2>
-                        <p>每一个不曾起舞的日子都是对生命的辜负。</p>
-                        
-
-                    </div>
-                </div>
-            </div>
-            <!-- // .col-md-12 -->
-        </div>
-        <div class="herofade beige-dk"></div>
-    </div>
-</section>
-
-<!-- Height spacing helper -->
-<div class="heightblock"></div>
-<!-- // End height spacing helper -->
-
-<!-- ============================ END Hero Image =========================== -->
-<!-- ============================ Content =========================== -->
-
+      
 <section id="intro">
     <div class="container">
-        
-        <div class="row">
-            <div class="col-md-8 col-md-offset-2 opening-statement">
-                <div class="col-md-4">
-                    <h3><a href="/2019/10/30/Ajax简介/">Ajax简介</a></h3>
-                    <span>
-                        <span class="post-meta">
+        <div class="row col-md-offset-2">
+            <div class="col-md-8">
+    			<span class="post-meta">
       <time datetime="2019-10-30T09:36:01.000Z" itemprop="datePublished">
           2019-10-30
       </time>
     
 </span>
-                    </span>
-                </div>
-                <div class="col-md-8">
-                    <p>
-                      
-                        AJAX 简介
-AJAX 是一种在无需重新加载整个网页的情况下，能够更新部分网页的技术。
-
-您应当具备的基础知识在继续学习之前，您需要对下面的知识有基本的了解：
-
-HTML / XHTML
-CSS
-JavaScript / DOM
-
-如果您希望首先学习这些项目，请在我们的首页访问这些教程。
-
-什么是 AJAX ？AJAX = 异步 JavaScript 和 XML。
-AJAX 是一种用于创建快速动态网页的技术。
-通过在后台与服务器进行少
-                      
-                    </p>
-                    
-                    <p class="pull-right readMore">
-                        <a href="/2019/10/30/Ajax简介/">Read More...</a>
-                    </p>
-                    
-                </div>
-                <div class="clearfix"></div>
-                <hr class="nogutter">
+                <h1>Ajax简介</h1>
             </div>
         </div>
-        
-        <div class="row">
-            <div class="col-md-8 col-md-offset-2 opening-statement">
-                <div class="col-md-4">
-                    <h3><a href="/2019/10/11/java面向对象知识点/">java面向对象知识点</a></h3>
-                    <span>
-                        <span class="post-meta">
-      <time datetime="2019-10-11T04:02:24.000Z" itemprop="datePublished">
-          2019-10-11
-      </time>
+        <div class="col-md-8 col-md-offset-2">
+      		<h1 id="AJAX-简介"><a href="#AJAX-简介" class="headerlink" title="AJAX 简介"></a>AJAX 简介</h1><hr>
+<p>AJAX 是一种在无需重新加载整个网页的情况下，能够更新部分网页的技术。</p>
+<hr>
+<h2 id="您应当具备的基础知识"><a href="#您应当具备的基础知识" class="headerlink" title="您应当具备的基础知识"></a>您应当具备的基础知识</h2><p>在继续学习之前，您需要对下面的知识有基本的了解：</p>
+<ul>
+<li>HTML / XHTML</li>
+<li>CSS</li>
+<li>JavaScript / DOM</li>
+</ul>
+<p>如果您希望首先学习这些项目，请在我们的<a href="https://www.runoob.com/" target="_blank" rel="noopener">首页</a>访问这些教程。</p>
+<hr>
+<h2 id="什么是-AJAX-？"><a href="#什么是-AJAX-？" class="headerlink" title="什么是 AJAX ？"></a>什么是 AJAX ？</h2><p>AJAX = 异步 JavaScript 和 XML。</p>
+<p>AJAX 是一种用于创建快速动态网页的技术。</p>
+<p>通过在后台与服务器进行少量数据交换，AJAX 可以使网页实现异步更新。这意味着可以在不重新加载整个网页的情况下，对网页的某部分进行更新。</p>
+<p>传统的网页（不使用 AJAX）如果需要更新内容，必需重载整个网页面。</p>
+<p>有很多使用 AJAX 的应用程序案例：新浪微博、Google 地图、开心网等等。</p>
+<hr>
+<h2 id="AJAX-工作原理"><a href="#AJAX-工作原理" class="headerlink" title="AJAX 工作原理"></a>AJAX 工作原理</h2><p><img src="https://www.runoob.com/wp-content/uploads/2013/09/ajax-yl.png" alt="AJAX"></p>
+<hr>
+<h2 id="AJAX是基于现有的Internet标准"><a href="#AJAX是基于现有的Internet标准" class="headerlink" title="AJAX是基于现有的Internet标准"></a>AJAX是基于现有的Internet标准</h2><p>AJAX是基于现有的Internet标准，并且联合使用它们：</p>
+<ul>
+<li>XMLHttpRequest 对象 (异步的与服务器交换数据)</li>
+<li>JavaScript/DOM (信息显示/交互)</li>
+<li>CSS (给数据定义样式)</li>
+<li>XML (作为转换数据的格式)</li>
+</ul>
+<p><img src="https://www.runoob.com/images/lamp.gif" alt="lamp">  AJAX应用程序与浏览器和平台无关的！</p>
+<hr>
+<h2 id="Google-Suggest"><a href="#Google-Suggest" class="headerlink" title="Google Suggest"></a>Google Suggest</h2><p>在 2005 年，Google 通过其 Google Suggest 使 AJAX 变得流行起来。</p>
+<p>Google Suggest 使用 AJAX 创造出动态性极强的 web 界面：当您在谷歌的搜索框输入关键字时，JavaScript 会把这些字符发送到服务器，然后服务器会返回一个搜索建议的列表。</p>
+
+            <div class="clearfix"></div>
+            <hr class="nogutter">
+        </div>
+        <nav class="m-pagination col-md-8 col-md-offset-2 col-sm-24" role="pagination">
     
-</span>
-                    </span>
-                </div>
-                <div class="col-md-8">
-                    <p>
-                      
-                        [TOC]
-第二章 类和对象
-1.面向对象概念2.类的创建语法：public class 类名{}File—&gt;new—&gt;class—&gt;类名
-3.创建对象类名 对象名=new 类名();
-对象名.方法名(); 对象名.属性 
-4.构造方法​    方法名和类名相同,没有返回值  
-123public class 类名&#123;	public 类名()&#123;&#125;//主要的做用是初始化操作&#125;
+    
+    <a class="pull-right" href="/2019/10/11/java面向对象知识点/">
+        java面向对象知识点 →
+    </a>
+    
+</nav>
 
-5.
-                      
-                    </p>
-                    
-                    <p class="pull-right readMore">
-                        <a href="/2019/10/11/java面向对象知识点/">Read More...</a>
-                    </p>
-                    
-                </div>
-                <div class="clearfix"></div>
-                <hr class="nogutter">
-            </div>
-        </div>
-        
-        <nav class="pagination" role="pagination">
-          
-          
-        </nav>
+        <div class="col-md-8 col-md-offset-2 col-sm-24"><script type="text/javascript">
+  /**
+   * 搜狐畅言
+   */
+
+  /*
+  document.write('<div id="SOHUCS" sid="' + window.location.pathname.slice(1) + '" ></div>');
+
+  window.onload = function () {
+    (function () {
+      var appid = 'cytXXXX';
+      var conf = 'prod_xxxxxxxxxxxxxxxxx';
+      var width = window.innerWidth || document.documentElement.clientWidth;
+      var loadJs = function (d, a, id) {
+        var c = document.getElementsByTagName("head")[0] || document.head || document.documentElement;
+        var b = document.createElement("script");
+        b.setAttribute("type", "text/javascript");
+        b.setAttribute("charset", "UTF-8");
+        b.setAttribute("src", d);
+        if (id) {
+          b.setAttribute("id", id);
+        }
+        if (typeof a === "function") {
+          if (window.attachEvent) {
+            b.onreadystatechange = function () {
+              var e = b.readyState;
+              if (e === "loaded" || e === "complete") {
+                b.onreadystatechange = null;
+                a()
+              }
+            }
+          } else {
+            b.onload = a
+          }
+        }
+        c.appendChild(b)
+      };
+
+      loadJs("https://changyan.sohu.com/upload/changyan.js", function () {
+        window.changyan.api.config({
+          appid: appid,
+          conf: conf
+        })
+      });
+    })();
+  }
+  */
+
+</script>
+</div>
     </div>
 </section>
-<section id="statement">
-    <div class="container text-center wow fadeInUp" data-wow-delay="0.5s">
-        <div class="row">
-            <p>虽然还没想好写点什么，但是总觉得这里放句话比较和谐。</p>
-        </div>
-    </div>
-</section>
-<!-- ============================ END Content =========================== -->
+
 
       
 <!-- ============================ Footer =========================== -->
